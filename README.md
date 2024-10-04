@@ -32,6 +32,7 @@ MusicLibraryManagementSystem/
 │   │   │           ├── Artist.java
 │   │   │           ├── Album.java
 │   │   │           ├── Song.java
+                    ├── PlaylistService.java
 │   │   │           ├── Playlist.java
 │   │   │           └── LibraryService.java
 │   │   └── utils/ (Empty for now but optional for assets)
