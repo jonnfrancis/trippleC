@@ -20,6 +20,7 @@ The **Music Library Management System** is a command-line application written in
 - Search the library for specific artists, albums, or songs.
 
 ## Project Structure
+```
 MusicLibraryManagementSystem/
 │
 ├── src/
@@ -46,7 +47,7 @@ MusicLibraryManagementSystem/
 │
 ├── bin/ (compiled .class files)
 ├── README.md
-
+```
 ## Setup and Running the Application
 
 ### Requirements
