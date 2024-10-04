@@ -47,6 +47,8 @@ MusicLibraryManagementSystem/
 │
 ├── bin/ (compiled .class files)
 ├── README.md
+├── lib/ (JUNIT jar files)
+└── .vscode
 ```
 ## Setup and Running the Application
 
