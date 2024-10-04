@@ -72,7 +72,7 @@ MusicLibraryManagementSystem/
 
 3. **Run the Program**:
    ```
-   java -cp bin com.musiclibrary.Main
+   java -cp bin main.java.com.musiclibrary.Main
    ```
 
 ## How to Use the Program
