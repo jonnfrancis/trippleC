@@ -41,7 +41,7 @@ MusicLibraryManagementSystem/
 │   │   │       └── musiclibrary/
 │   │   │           ├── ArtistTest.java
 │   │   │           ├── AlbumTest.java
-│   │   │           ├── SongTest.java
+│   │   │           ├── PlaylistTest.java
 │   │   │           ├── PlaylistServiceTest.java
 │   │   │           └── LibraryServiceTest.java
 │
