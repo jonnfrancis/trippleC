@@ -97,11 +97,13 @@ After starting the program, you will be presented with a menu to interact with t
    - Represents an artist or band.
    - Attributes: `name`, `isBand`, `albums`, `singles`.
    - Methods: `addAlbum()`, `addSingle()`, and getters.
+   - Testing: `getAlbumCount()` and `getSingleCount()`.
 
 ### 2. **Album.java**
    - Represents an album that belongs to an artist.
    - Attributes: `title`, `artist`, `year`, `songs`.
    - Methods: `addSong()` and getters.
+   - Testing: `getSongCount()`.
 
 ### 3. **Song.java**
    - Represents a song in the music library system.
@@ -112,9 +114,10 @@ After starting the program, you will be presented with a menu to interact with t
    - Represents a playlist containing multiple songs.
    - Attributes: `name`, `songs`, `currentIndex`.
    - Methods: `addSong()`, `getNextSong()`, `getPreviousSong()`, `shuffleSongs()`.
+   - Testing: `getSongCount()`.
 
 ### 5. **LibraryService.java**
-   - Manages the collection of artists, albums, and songs in the library.
+   - Manages the library's collection of artists, albums, and songs.
    - Methods: `addArtist()`, `addAlbum()`, `addSong()`, `findArtistByName()`, `findAlbumByTitle()`, `findSongByTitle()`.
 
 ### 6. **PlaylistService.java**
