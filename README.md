@@ -33,4 +33,21 @@ Users can:
    java Main
    ```
 
+## Commands
+Once the program is running, the following commands are available:
+- `next`: Play the next song.
+- `previous`: Play the previous song.
+- `shuffle`: Shuffle the current playlist.
+- `display`: Display all songs in the current playlist.
+- `manage playlists`: Access the playlist management menu (create, delete, display, switch).
+- `manage songs`: Access the song management menu (add, remove).
+- `save`: Save the current playlist to a file.
+- `exit`: Exit the program.
+
+
+
+
+
+
+
    
