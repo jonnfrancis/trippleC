@@ -48,6 +48,16 @@ Once the program is running, the following commands are available:
 - **Saving Playlists**: Use the save command and specify a filename to save the current playlist.
 - **Loading Playlists**: If a playlist file exists, the program automatically loads songs from the file during program startup.
 
+### Example Commands:
+```
+Enter command: next
+Now playing: Song: Shape of You, Artist: Ed Sheeran, Duration: 240 seconds
+```
+```
+Enter command: manage songs
+Song Management Commands: add, remove, back
+```
+
 
 
 
