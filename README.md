@@ -51,12 +51,31 @@ Once the program is running, the following commands are available:
 ### Example Commands:
 ```
 Enter command: next
-Now playing: Song: Shape of You, Artist: Ed Sheeran, Duration: 240 seconds
+Now playing: Wunna,
+ Artist: Gunna,
+ Album: Ds4eva, (344 seconds)
 ```
 ```
 Enter command: manage songs
 Song Management Commands: add, remove, back
 ```
+
+## File Structure
+- `Main.java`: Handles user interactions and the main loop.
+- `models/`:
+  - `Song.java`: Represents a song, with attributes like title, duration, artist, and album.
+  - `Artist.java`: Represents an artist or band.
+  - `Album.java`: Represents an album containing multiple songs.
+  - `Playlist.java`: Handles a collection of songs.
+- `services/`:
+  - `PlaylistManager.java`: Handles playlist-related operations (e.g., adding/removing songs, navigating the playlist, file I/O).
+ 
+## Future Enhancements
+- Ability to edit song details after creation.
+- Support for loading and saving playlists in JSON format.
+- Stop using CLI and create a GUI
+
+
 
 
 
