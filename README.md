@@ -21,5 +21,16 @@ Users can:
 
 ### Running the Program
 1. Navigate to the `src/` directory:
-   ```bash
+   ```
    cd src
+   ```
+2. Compile the Java files:
+   ```
+   javac Main.java models/*.java
+   ```
+3. Run the program:
+   ```
+   java Main
+   ```
+
+   
