@@ -44,6 +44,12 @@ Once the program is running, the following commands are available:
 - `save`: Save the current playlist to a file.
 - `exit`: Exit the program.
 
+## File IO
+- **Saving Playlists**: Use the save command and specify a filename to save the current playlist.
+- **Loading Playlists**: If a playlist file exists, the program automatically loads songs from the file during program startup.
+
+
+
 
 
 
