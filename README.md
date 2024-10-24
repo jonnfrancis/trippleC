@@ -33,6 +33,9 @@ Users can:
    java Main
    ```
 
+### Dependencies
+***JUnit*** - For running tests.
+
 ## Commands
 Once the program is running, the following commands are available:
 - `next`: Play the next song.
@@ -69,6 +72,9 @@ Song Management Commands: add, remove, back
   - `Playlist.java`: Handles a collection of songs.
 - `services/`:
   - `PlaylistManager.java`: Handles playlist-related operations (e.g., adding/removing songs, navigating the playlist, file I/O).
+ 
+## Recursive Structure in Playlist Class
+The `Playlist.java` class uses a recursive structure to manage multiple playlists. Specifically, not only does the playlist store songs, but it also employs recursion to store other playlists. 
  
 ## Future Enhancements
 - Ability to edit song details after creation.
